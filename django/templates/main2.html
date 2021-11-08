@@ -1,0 +1,57 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>City game</title>
+
+	<link rel="icon" type="imege/png" href="{% static 'image2\city.png' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css2\file2.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css2\file3.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css2\file.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css2\file4.css' %}">
+	
+</head>
+<body>
+	<form action="{% url 'game'%}">
+		<div class="pix-padding-v-140 ">
+			<div class="text-center">
+				<h1 class=" pix-no-margin-top pix-small-width-text pix-margin-bottom-20">
+					<span class="stroke "><strong>Citys game </strong></span>
+				</h1>
+			</div>
+		</div>
+
+		<div class="pix-padding ">
+			<div class="text-center ">
+				<input id="data" type="text" placeholder="{{label}}" readonly="">
+			</div>
+		</div></br>
+
+		<div class=" pix-padding ">
+			<div class="text-center ">
+				<textarea  id="location" type="text" placeholder="Введите город ..." name="text"></textarea>
+			</div>
+		</div>
+		<div class="pix-padding">
+			<div class="text-center">
+				<input class="button7" type="submit" value="Ответить">
+			</div>
+		</div>
+		<div class="pix-padding ">
+			<div class="text-center ">
+				<a href="{% url 'home'%}" class="button7">
+					<span class="pix_edit_text">
+						<strong>Назад</strong>
+					</span>
+				</a>
+			</div>
+		</div>
+	</form>
+
+
+	
+
+</body>
+</html>
