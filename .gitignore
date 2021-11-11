@@ -1,0 +1,24 @@
+# python cache
+__pycache__/
+
+# IDEs
+.idea/
+.vs/
+.vscode/*
+.history
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+# db.sqlite3
+media
