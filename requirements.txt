@@ -1,0 +1,5 @@
+# this file contains all the dependencies needed to run your application
+pygame==2.1.0
+pyinstaller==4.6
+Django==3.2.9
+aiogram==2.16
